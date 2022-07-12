@@ -24,3 +24,18 @@ describe('Test true or false', () => {
 		expect(otherNumber).toBeFalsy();
 	});
 });
+
+describe('Numbers test', () => {
+	it('2 + 2', () => {
+		const value = 2 + 2;
+		expect(value).toBe(4);
+		expect(value).toBeGreaterThan(3);
+		expect(value).toBeGreaterThanOrEqual(4);
+	});
+});
+
+describe('String test', () => {
+	it('Check if I is in sring', () => {
+		expect('teIam').toMatch(/I/);
+	});
+});
