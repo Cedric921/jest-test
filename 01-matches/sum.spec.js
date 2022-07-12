@@ -39,3 +39,9 @@ describe('String test', () => {
 		expect('teIam').toMatch(/I/);
 	});
 });
+
+
+describe("Array tes", () => {
+    const shoppingList = ['cedric', 'arick','valentin', 'gloire']
+    expect(shoppingList).toContain('arick')
+})
